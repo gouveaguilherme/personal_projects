@@ -1,0 +1,21 @@
+@import "global.css";
+
+.cta{
+    width: 262px;
+    height: 72px;
+    background-color: #E8B74D;
+    border: 1px solid #9E133F;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    cursor: pointer; 
+    font-size: 28px;
+    font-weight: 700;
+    color: #9E133F; 
+    border-radius: 4px;
+}
+
+.cta:hover{
+    background-color: #ffffff;
+}

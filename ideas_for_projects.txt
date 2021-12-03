@@ -1,0 +1,11 @@
+quiz para saber qual seu tipo de nen
+
+gerador de apostas
+
+controle de horas
+
+ranking de filmes (procurar API de animes pra fazer um top de animes)
+
+encurtador de URL
+
+sistema de autenticacao

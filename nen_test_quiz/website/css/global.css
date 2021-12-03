@@ -1,0 +1,99 @@
+html{
+    font-size: 100%;
+    box-sizing: border-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.3;
+    margin: 0px;
+    padding: 0px; 
+}
+
+.clear{clear: both;}
+
+a{text-decoration: none;}
+
+.container{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+header{
+    width: 100%;
+    background-color: #121333;
+    ;
+}
+
+.logo{
+    float: left;
+    width: 118px;
+    height: 59px;
+}
+
+.links{
+	float: right;
+	padding: 20px;
+}
+
+header a{
+	color: #ffffff;
+	margin-right: 30px;
+}
+
+header a:hover{
+    font-weight: 700;
+}
+
+.fa-twitter{
+    color:rgba(29,161,242,1.00);
+    margin-left: 10px;
+}
+
+.fa-twitter:hover{
+    color:rgba(29,161,242,0.8);
+    font-weight: 700;
+}
+
+.bg{
+	width: 100vw;
+	height: 100vh;
+	background-color: #121333;
+	background-image: url('../images/diagram.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+  position: relative;
+}
+
+footer{
+    width: 100%;
+    background-color: #121333;
+    color: #ffffff;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    padding: 10px;   
+}
+
+@media (max-width: 600px){
+    .container{
+        width: 100%;
+    }
+
+    footer{
+       font-size: 12px; 
+    }
+
+    .logo{
+        margin-left: 20px;
+    }
+    
+    .links{
+        padding: 20px;
+        margin-right: -20px;
+    }
+}
